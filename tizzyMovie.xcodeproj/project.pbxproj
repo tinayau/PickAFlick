@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43D66A1D192F1EA800EA5A5C /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 43D66A1C192F1EA800EA5A5C /* home.png */; };
+		CEFD25DD192EC1910058752B /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEFD25DC192EC1910058752B /* BebasNeue.otf */; };
 		DA42BF63191A91BD00587D50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA42BF62191A91BD00587D50 /* Foundation.framework */; };
 		DA42BF65191A91BD00587D50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA42BF64191A91BD00587D50 /* CoreGraphics.framework */; };
 		DA42BF67191A91BD00587D50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA42BF66191A91BD00587D50 /* UIKit.framework */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43D66A1C192F1EA800EA5A5C /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		CEFD25DC192EC1910058752B /* BebasNeue.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.otf; sourceTree = "<group>"; };
 		DA42BF5F191A91BD00587D50 /* tizzyMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tizzyMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA42BF62191A91BD00587D50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA42BF64191A91BD00587D50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +116,8 @@
 		DA42BF68191A91BD00587D50 /* tizzyMovie */ = {
 			isa = PBXGroup;
 			children = (
+				43D66A1C192F1EA800EA5A5C /* home.png */,
+				CEFD25DC192EC1910058752B /* BebasNeue.otf */,
 				DA42BF71191A91BD00587D50 /* XYZAppDelegate.h */,
 				DA42BF72191A91BD00587D50 /* XYZAppDelegate.m */,
 				DA42BF74191A91BD00587D50 /* Main.storyboard */,
@@ -230,7 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA42BF7B191A91BD00587D50 /* Images.xcassets in Resources */,
+				43D66A1D192F1EA800EA5A5C /* home.png in Resources */,
 				DA42BF6D191A91BD00587D50 /* InfoPlist.strings in Resources */,
+				CEFD25DD192EC1910058752B /* BebasNeue.otf in Resources */,
 				DA42BF76191A91BD00587D50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +465,7 @@
 				DA42BF93191A91BE00587D50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA42BF94191A91BE00587D50 /* Build configuration list for PBXNativeTarget "tizzyMovieTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +474,7 @@
 				DA42BF96191A91BE00587D50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
